@@ -1,0 +1,8 @@
+/target
+Cargo.lock
+
+# nunca commitear certificados/claves privadas reales usadas para pruebas
+*.pem
+*.key
+*.crt
+*.csr
