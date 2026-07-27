@@ -3,4 +3,7 @@ name = "arca-ws"
 version = "0.1.0"
 edition = "2024"
 
+
 [dependencies]
+openssl = { version = "0.10", features = ["vendored"] }
+chrono = "0.4"
